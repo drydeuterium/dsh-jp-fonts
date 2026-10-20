@@ -1,0 +1,15 @@
+# Japanese-first font stacks for dsh.
+#
+# Append to ~/.dsh/profiles/<profile>/cordis.patch.yml, then restart dsh.
+# The three lists are placed ahead of the built-in stacks, so only the
+# characters the listed families actually cover switch font: Latin keeps
+# Segoe UI / Consolas, Han and kana come from the Japanese faces.
+#
+# Settings > General > Text font / Code font / Terminal font writes the same
+# three fields and applies without a restart.
+- id: ui-theme
+  name: "@deepseek-ai/dsh-client-ui-theme"
+  config:
+    textFontFamily: 'Segoe UI, Yu Gothic UI'
+    codeFontFamily: 'Consolas, MS Gothic'
+    terminalFontFamily: 'Consolas, MS Gothic'

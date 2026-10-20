@@ -1,0 +1,30 @@
+{
+  "name": "dsh-jp-fonts",
+  "version": "0.1.0",
+  "description": "Japanese-first font stacks for the dsh (DeepSeek Harness) web UI",
+  "type": "module",
+  "bin": {
+    "dsh-jp-fonts": "./dsh-jp-fonts.mjs"
+  },
+  "files": [
+    "dsh-jp-fonts.mjs",
+    "cordis.patch.snippet.yml",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "font",
+    "cjk",
+    "japanese"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drydeuterium/dsh-jp-fonts.git"
+  }
+}
